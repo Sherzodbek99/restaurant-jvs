@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+
+    <body>
+        <main>
+            <header>
+                <img src="burger.jpg" alt="burger image" class="burger">
+                <p class="mainName">Paul's dinner</p>
+                <p class="best">Best burger in Town</p>
+            </header>
+
+            <section class="menu" id="menu">
+                <!--<div class="sec pizza">
+                    <img src="as.jpg" alt="pizza pie" class="icon">
+                    <div class="info">
+                        <p class="nameItem">Pizza</p>
+                        <p class="inside">Pepperoni, mushroom, mozarella</p>
+                        <p class="price">$14</p>
+                    </div>
+                    <i class="fa-solid fa-circle-plus" id="plusPizza"></i>
+                </div>
+                <div class="sec hamburger">
+                    <img src="burger.jpeg" alt="burger" class="icon">
+                    <div class="info">
+                        <p class="nameItem">Hamburger</p>
+                        <p class="inside">Beef, cheese, lettuce</p>
+                        <p class="price">$12</p>
+                    </div>
+                    <i class="fa-solid fa-circle-plus" id="plusBurger"></i>
+                </div>
+                <div class="sec beer">
+                    <img src="beer.png" alt="beer" class="icon">
+                    <div class="info">
+                        <p class="nameItem">Beer</p>
+                        <p class="inside">Grain, hops, yeast, water</p>
+                        <p class="price">$12</p>
+                    </div>
+                    <i class="fa-solid fa-circle-plus" id="plusBeer"></i>
+                </div>
+            -->
+                
+            </section>
+        
+            <section class="yourOrder" id="yourOrder">
+                    
+                    <h3>Your Order:</h3>
+                    
+                    <div class="inner" id="inner">
+                         <div class="Pizza" id="orderP">
+
+                         </div>
+
+                         <div class="Hamburger" id="orderH">
+
+                         </div>
+
+                         <div class="Beer" id="orderB">
+
+                         </div>
+                    </div>
+
+
+                    <section class="totalPrice">
+                        <p class="nameItem">Total Price:</p>
+                        <p class="priceOrder" id="totalP">14$</p>
+                    </section>
+
+                    <button id="complete">Complete Order</button>
+            </section> 
+        </main>
+
+        
+
+
+        <div class="modal" id="modal">
+            <h2>Enter Card Details</h2>
+            <form action="" id="form-modal">
+                <input type="text" name="fullName" placeholder="Enter Your Name">
+                <input type="number" name="cardNumber" placeholder="Enter Card Number">
+                <input type="text" name="cvv" placeholder="Enter CVV">
+
+                <button class="modal-submit" id="modal-submit">Pay</button>
+            </form>
+        </div>
+
+	<script type="module" src="main.js"></script>
+    </body>
+</html>
+
